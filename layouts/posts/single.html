@@ -16,7 +16,7 @@
         <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span itemprop="name">
             {{ if .Site.Author }}
-              {{ .Site.Author }}
+              {{ .Site.Author.name }}
             {{ else if .Site.Title }}
               {{ .Site.Title }}
             {{ end }}
