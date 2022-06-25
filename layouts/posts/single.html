@@ -12,7 +12,6 @@
         {{ .Title }}
       </h1>
       <div class="meta">
-        {{ printf "%#v" $.Site.Title }}
         {{ if (or (.Site.Author) (.Site.Title))}}
         <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span itemprop="name">
